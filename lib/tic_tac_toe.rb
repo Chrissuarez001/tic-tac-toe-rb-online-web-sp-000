@@ -26,7 +26,7 @@ return -1
 end
 end
 
-def move (board, index, current_player)
+def move (board, index, current_player = "X")
 @board[index] = current_player[index]
 end
 
