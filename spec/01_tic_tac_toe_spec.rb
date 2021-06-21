@@ -52,7 +52,6 @@ describe './lib/tic_tac_toe.rb' do
 
       expect(input_to_index(user_input)).to be(5)
     end
-
     it 'returns -1 for strings without integers' do
       user_input = 'invalid'
 
