@@ -27,7 +27,7 @@ end
 end
 
 def move (board, index, current_player)
-@board[index] = current_player 
+@board[index] = current_player[index]
 end
 
 def valid_move?(board, index)
