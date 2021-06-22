@@ -20,6 +20,7 @@ def display_board(board)
 end
 
 def input_to_index(x)
+print x
   # user_input.to_i |i| -1
 
 end
